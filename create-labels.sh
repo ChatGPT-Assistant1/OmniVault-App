@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Run this in your terminal to add all OmniVault emoji labels
+
+cd /path/to/your/repo  # Change to your repo directory
+
+gh label create "✨ new feature" --description "Adding new functionality, capabilities, or major additions" --color "1f6feb"
+gh label create "🐛 bug fix" --description "Correcting broken or incorrect behavior" --color "d73a49"
+gh label create "📝 documentation" --description "README files, guides, notes, rules, comments, or documentation-only changes" --color "0075ca"
+gh label create "♻️ refactor" --description "Restructuring code without changing intended behavior" --color "d4c5f9"
+gh label create "🔧 configuration" --description "Configuration files, repository settings, app settings, or environment configuration" --color "fbca04"
+gh label create "✅ test / verification" --description "Tests, validation, confirmed checks, or completed verification work" --color "c2e0c6"
+gh label create "🚀 release / deployment" --description "Publishing, deploying, shipping, or release operations" --color "ffd700"
+gh label create "🔒 security" --description "Security fixes, access controls, credential handling, or hardening" --color "d73a49"
+gh label create "⬆️ dependency upgrade" --description "Updating an existing dependency to a newer version" --color "a371f7"
+gh label create "➕ add dependency" --description "Adding a new dependency, module, package, or component" --color "a371f7"
+gh label create "➖ remove dependency" --description "Removing a dependency, module, package, or component" --color "a371f7"
+gh label create "🗑️ removal" --description "Deleting obsolete files, code, features, or resources" --color "e4e669"
+gh label create "📦 package / files / assets" --description "Packaging, bundles, stored assets, file sets, or distribution content" --color "bfe5bf"
+gh label create "🎨 ui / styling" --description "Visual styling, formatting, layout, or non-functional presentation changes" --color "f1e05a"
+gh label create "⚡ performance" --description "Speed, efficiency, memory, startup time, or optimization improvements" --color "ffd700"
+gh label create "🧪 experimental" --description "Prototypes, experiments, temporary trials, or unproven approaches" --color "e1ad16"
+gh label create "🚧 work in progress" --description "Incomplete work that is intentionally not finished yet" --color "d4af37"
+gh label create "🔀 merge / integration" --description "Integrating branches, systems, or major workstreams" --color "91ca55"
+gh label create "🌱 initial setup" --description "New repository setup, scaffolding, seed content, or first-time initialization" --color "1d7e3a"
+gh label create "🏷️ tags / labels / metadata" --description "Git tags, issue labels, metadata, naming, or classification work" --color "8b5fbf"
+gh label create "👷 ci / workflow" --description "GitHub Actions, CI pipelines, automation, or workflow changes" --color "b60205"
+gh label create "💚 fix ci / workflow" --description "Repairing a broken build, failed workflow, or failing automation" --color "009800"
+gh label create "🔖 version / release tag" --description "Version bumps, release tags, or release identifiers" --color "fc2929"
+gh label create "🔨 build system" --description "Build scripts, build tools, compilation, or packaging configuration" --color "c5def5"
+gh label create "🧹 cleanup / housekeeping" --description "General cleanup, organization, minor maintenance, or repository housekeeping" --color "fef2c0"
+gh label create "💥 breaking change" --description "Changes that intentionally break compatibility or require migration" --color "fc2929"
+gh label create "🔊 add or improve logging" --description "Adding logs, diagnostics, tracing, or observability output" --color "84b6eb"
+gh label create "🔇 reduce or remove logging" --description "Removing noisy logs or reducing diagnostic output" --color "d4d4d4"
+gh label create "♿ accessibility" --description "Accessibility improvements or accessibility-specific fixes" --color "2f1b3c"
+gh label create "🌐 localization / language" --description "Translation, localization, locale, or language-related work" --color "0e7c86"
+gh label create "💡 idea / proposal" --description "Ideas, design proposals, planned concepts, or exploratory discussion" --color "fffacd"
